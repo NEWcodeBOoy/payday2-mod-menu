@@ -17,3 +17,7 @@ You need SuperBLT and BeardLib. Carry Stacker Reloaded is optional for carrying 
 
 
 5. Install Brandon’s menu [ file name HeistAssist ] . Download the menu ZIP Create a folder named HeistAssist inside mods, then extract the ZIP’s contents into it. Choose Replace files when updating your existing copy.
+
+
+
+let me know if you want a unlock all tool added to it 
