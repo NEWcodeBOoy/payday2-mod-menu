@@ -16,4 +16,4 @@ You need SuperBLT and BeardLib. Carry Stacker Reloaded is optional for carrying 
 4. Optional: install Carry Stacker. Download the mod ZIP from Carry Stacker Reloaded releases. Extract its mod folder into PAYDAY 2\mods. Its mod.txt should be directly inside that folder.
 
 
-5. Install Brandon’s menu. Download the menu ZIP Create a folder named HeistAssist inside mods, then extract the ZIP’s contents into it. Choose Replace files when updating your existing copy.
+5. Install Brandon’s menu [ file name HeistAssist ] . Download the menu ZIP Create a folder named HeistAssist inside mods, then extract the ZIP’s contents into it. Choose Replace files when updating your existing copy.
