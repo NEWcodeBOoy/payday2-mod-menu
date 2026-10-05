@@ -20,4 +20,4 @@ You need SuperBLT and BeardLib. Carry Stacker Reloaded is optional for carrying 
 
 
 
-let me know if you want a unlock all tool added to it 
+let me know if you want a unlock all tool added to it still adding add 1B to money and offshore button
