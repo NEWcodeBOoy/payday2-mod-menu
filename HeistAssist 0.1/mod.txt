@@ -1,0 +1,140 @@
+{
+    "name": "Brandon's New Menu",
+    "description": "No-intro full-color menu with host-only cop firing and spawn-kill controls.",
+    "author": "Local custom mod",
+    "version": "18.0",
+    "blt_version": 2,
+    "hooks": [
+        {
+            "hook_id": "lib/units/beings/player/playerdamage",
+            "script_path": "main.lua"
+        },
+        {
+            "hook_id": "lib/units/weapons/raycastweaponbase",
+            "script_path": "main.lua"
+        },
+        {
+            "hook_id": "lib/units/beings/player/fpcameraplayerbase",
+            "script_path": "main.lua"
+        },
+        {
+            "hook_id": "lib/units/beings/player/playerdamage",
+            "script_path": "extras.lua"
+        },
+        {
+            "hook_id": "lib/units/beings/player/playermovement",
+            "script_path": "extras.lua"
+        },
+        {
+            "hook_id": "lib/units/beings/player/states/playerstandard",
+            "script_path": "extras.lua"
+        },
+        {
+            "hook_id": "lib/units/beings/player/states/playercarry",
+            "script_path": "extras.lua"
+        },
+        {
+            "hook_id": "lib/units/beings/player/states/playermaskoff",
+            "script_path": "extras.lua"
+        },
+        {
+            "hook_id": "lib/units/weapons/raycastweaponbase",
+            "script_path": "extras.lua"
+        },
+        {
+            "hook_id": "lib/units/weapons/newraycastweaponbase",
+            "script_path": "extras.lua"
+        },
+        {
+            "hook_id": "lib/units/weapons/shotgunbase",
+            "script_path": "extras.lua"
+        },
+        {
+            "hook_id": "lib/managers/playermanager",
+            "script_path": "extras.lua"
+        },
+        {
+            "hook_id": "lib/units/interactions/interactionext",
+            "script_path": "extras.lua"
+        },
+        {
+            "hook_id": "lib/units/enemies/cop/copbrain",
+            "script_path": "extras.lua"
+        },
+        {
+            "hook_id": "lib/units/enemies/cop/copdamage",
+            "script_path": "extras.lua"
+        },
+        {
+            "hook_id": "lib/units/props/drill",
+            "script_path": "extras.lua"
+        },
+        {
+            "hook_id": "lib/units/props/timergui",
+            "script_path": "extras.lua"
+        },
+        {
+            "hook_id": "lib/units/weapons/sentrygunweapon",
+            "script_path": "extras.lua"
+        },
+        {
+            "hook_id": "lib/units/equipment/sentry_gun/sentrygundamage",
+            "script_path": "extras.lua"
+        },
+        {
+            "hook_id": "core/lib/managers/coreenvironmentcontrollermanager",
+            "script_path": "extras.lua"
+        },
+        {
+            "hook_id": "lib/managers/environmentcontrollermanager",
+            "script_path": "extras.lua"
+        },
+        {
+            "hook_id": "lib/managers/menumanager",
+            "script_path": "menu_setup.lua"
+        },
+        {
+            "hook_id": "lib/managers/menumanager",
+            "script_path": "bag_adapter.lua"
+        },
+        {
+            "hook_id": "lib/setups/gamesetup",
+            "script_path": "bag_adapter.lua"
+        },
+        {
+            "hook_id": "lib/units/beings/player/playermovement",
+            "script_path": "stealth.lua"
+        },
+        {
+            "hook_id": "lib/managers/group_ai_states/groupaistatebase",
+            "script_path": "alarm_guard.lua"
+        },
+        {
+            "hook_id": "lib/units/props/timergui",
+            "script_path": "instant_timers.lua"
+        },
+        {
+            "hook_id": "lib/units/props/digitalgui",
+            "script_path": "instant_timers.lua"
+        },
+        {
+            "hook_id": "lib/units/enemies/cop/copmovement",
+            "script_path": "enemy_control.lua"
+        },
+        {
+            "hook_id": "lib/managers/enemymanager",
+            "script_path": "enemy_control.lua"
+        }
+    ],
+    "keybinds": [
+        {
+            "keybind_id": "brandons_new_menu_f5",
+            "name": "Brandon's New Menu",
+            "description": "Open the feature menu (default F5).",
+            "script_path": "menu.lua",
+            "run_in_menu": true,
+            "run_in_game": true,
+            "localized": false
+        }
+    ]
+}
